@@ -1,0 +1,20 @@
+.loopstr{
+    width:100%;
+    overflow-x:hidden;
+    white-space: nowrap;
+}
+
+.loopstr p{
+    animation: loopstr 100s linear forwards infinite;
+    position:relative;
+
+
+}
+@keyframes loopstr {
+    0%{
+        left:0%;
+    }
+    100%{
+        left:-1000%;
+    }
+}
